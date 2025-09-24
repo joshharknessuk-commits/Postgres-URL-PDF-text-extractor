@@ -1,0 +1,18 @@
+# Database
+psycopg[binary]      # Postgres driver (binary wheels = no compilation hassle)
+sqlalchemy           # ORM / DB engine (optional but cleaner than raw psycopg)
+
+# PDF parsing
+pypdf                # lightweight PDF parser
+
+# Data wrangling
+pandas               # for analysis/manipulation of results
+
+# Utils
+tqdm                 # progress bars
+python-dotenv        # load Neon URL from .env
+requests             # HTTP client for PDF downloads
+# Optional (later if needed)
+# spacy              # NLP
+# nltk               # NLP
+# transformers       # LLM-based processing
